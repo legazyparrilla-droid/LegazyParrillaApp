@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Legazy Parrilla</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 35px 20px;
+      background: #000;
+    }
+
+    header h1 {
+      font-size: 38px;
+      color: #d89b32;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(#000b, #000b),
+                  url("https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&w=1200&q=80");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero h2 {
+      font-size: 34px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 25px;
+      background: #d89b32;
+      color: #000;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      margin: 5px;
+    }
+
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      color: #d89b32;
+      margin-bottom: 25px;
+      font-size: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1d1d1d;
+      padding: 25px;
+      border-radius: 15px;
+      border: 1px solid #333;
+    }
+
+    .card h3 {
+      color: #d89b32;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #ddd;
+      line-height: 1.5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background: #000;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🐂 LEGAZY PARRILLA</h1>
+    <p>El sabor que se convierte en leyenda</p>
+  </header>
+
+  <section class="hero">
+    <h2>Bienvenidos a Legazy Parrilla</h2>
+    <p>Carnes a la parrilla, sabor dominicano y experiencias para compartir.</p>
+
+    <a class="btn" href="https://wa.me/18097593293">
+      Pedir por WhatsApp
+    </a>
+
+    <a class="btn" href="https://instagram.com/legazyparrilla1">
+      Instagram
+    </a>
+  </section>
+
+  <section class="section">
+    <h2>Nuestros Especiales</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>🔥 Costillas al Barril</h3>
+        <p>Costillas jugosas cocinadas lentamente al fuego para lograr ese sabor único de Legazy.</p>
+      </div>
+
+      <div class="card">
+        <h3>🥩 Carnes a la Parrilla</h3>
+        <p>Cortes preparados al momento con nuestro sazón especial.</p>
+      </div>
+
+      <div class="card">
+        <h3>🍖 Bandejas Legazy</h3>
+        <p>Bandejas familiares y para compartir, perfectas para eventos y reuniones.</p>
+      </div>
+
+      <div class="card">
+        <h3>🍍 Postre Brassa</h3>
+        <p>Una creación especial para cerrar tu experiencia Legazy con mucho sabor.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📲 Haz tu pedido</h2>
+    <p style="margin-bottom:20px;">
+      Escríbenos directamente y disfruta el sabor de Legazy Parrilla.
+    </p>
+
+    <a class="btn" href="https://wa.me/18097593293">
+      WhatsApp: 809-759-3293
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 Legazy Parrilla</p>
+    <p>@legazyparrilla1</p>
+  </footer>
+
+</body>
+</html>
