@@ -1,0 +1,11 @@
+{
+  "name": "Legazy Parrilla",
+  "short_name": "Legazy",
+  "description": "El sabor que se convierte en leyenda",
+  "start_url": "/LegazyParrillaApp/",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#d89b32",
+  "orientation": "portrait",
+  "icons": []
+}
